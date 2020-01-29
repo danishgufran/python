@@ -1,0 +1,9 @@
+#python code to find Simple Interest
+
+while True:
+ pri=float(input('Enter principle amount '))
+ rate=float(input('Enter Rate of interest '))
+ time=float(input('Enter the duration '))
+ intt=(pri*time*rate)/100
+ print('The interest is :',intt)
+ print('Total payable is :',pri+intt)
