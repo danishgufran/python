@@ -1,0 +1,25 @@
+#python code to make a list of bird species
+#The names will be stored here
+bird_names = []
+
+#while loop to loop continuously
+while True:
+    answer = input('Please enter a bird species\nor type "Q" to quit\nor type "show" to show list\nor type "delete" to remove a species: \n')
+
+    if answer in bird_names:
+        print(answer, 'is already in the list.\n')
+    elif answer in 'Qq':
+        print('Goodbye.')
+        break
+    elif answer in 'showSHOW':
+      print(bird_names)
+    elif answer in 'DELETEdelete':
+      delete = input('Type the species to remove from the list \n')
+      if delete in bird_names:
+        bird_names.remove(delete)
+        print(delete,'Removed from the list\n')
+      else:
+        print(delete,'Does not exit in the list\n')
+    else:
+        bird_names.append(answer)
+        print('\t',answer, 'added to the list.\n')
