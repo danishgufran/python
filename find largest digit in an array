@@ -1,0 +1,14 @@
+#python code to find largest digit in an array
+def large(lenn):
+  max=ar[0]
+  for i in range (0,lenn):
+    if (ar[i]>max):
+      max=ar[i]
+  return max
+
+ar=[10,20,30,40,50]
+#find the number of digits in the array
+lenn=len(ar)
+#find the largest number
+ans=large(lenn)
+print('The largest number in',ar,'is''\n\t\t',ans)
