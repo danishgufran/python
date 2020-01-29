@@ -1,0 +1,19 @@
+#python code to find armstrong number
+while True:
+ get=int(input('ENTER A NUMBER'))
+# Get the input 
+# and calculated the length (number of digits)
+ size = len(str(get))
+# initialize sum
+ sum = 0
+# find the sum of the cube of each digit
+ check = get
+ while check > 0:
+     val = check % 10
+     sum += val ** size
+     check //= 10
+# display the result
+ if get == sum:
+     print(get,"is an Armstrong number")
+ else:
+     print(get,"is not an Armstrong number")
