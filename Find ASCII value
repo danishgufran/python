@@ -1,0 +1,5 @@
+#Python code to find the ASCII value of any character
+while True:
+  n=input('Press any key ')
+#ord command is used to find the ASCII value
+  print("The ASCII value of " + n + " is", ord(n))
