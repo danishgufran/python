@@ -1,0 +1,13 @@
+#Python code to check for palindrome
+
+while True:
+ get=input('Enter string ')
+
+#reverse the string
+ rev=get[::-1]
+ if (get==rev):
+   print('\t{{YES}}')
+   print(get,'=',rev)
+ else:
+   print('\t{{NO}}')
+   print(get,'=\=',rev)
