@@ -1,0 +1,11 @@
+#python code to find cube sum of first n natural numbers
+
+while True:
+ def value(i):
+   sum=0
+   for i in range(n+1):
+    sum+=i*i
+   print(sum,'is the value for unit',i)
+ n=int(input('Enter a value '))
+ for n in range(n+1):
+   value(n)
