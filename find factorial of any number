@@ -1,0 +1,8 @@
+#Python code to find factorial of any number
+
+def fact(i):
+  return 1 if(i==1 or i==0) else i*fact(i-1)
+while True:
+ fac=int(input('Enter value to find factorial '))
+ fact(fac)
+ print(fact(fac))
