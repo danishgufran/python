@@ -1,3 +1,4 @@
+  
 #Python code to find vowel, number or consonant using definition
 #definition function
 
@@ -8,17 +9,18 @@ def start():
    print(a," is a vowel")
 #check for number
 
-elif (a=='1' or a=='2' or a=='3' or a=='4' or a=='5' or a=='6' or a=='7' or a=='8' or a=='9' or a=='0'):
+ elif (a=='1' or a=='2' or a=='3' or a=='4' or a=='5' or a=='6' or a=='7' or a=='8' or a=='9' or a=='0'):
   print(a," is a number")
 #check for consonant
 
-else:
+ else:
    print(a,"is a consonant")
 
 #The code starts here
 #Enter an input to begin
 
-a=input("Press any key ")
+while True:
+ a=input("Press any key ")
 #go to start definition
 
-start()
+ start()
