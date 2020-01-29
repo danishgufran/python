@@ -1,4 +1,7 @@
+#python code to add 2 integer numbers
+#get the 2 numbers to be added
 num1 = input("enter the first number")
 num2 = input("enter the second number")
+#adding the 2 inputs and storing the result in sum
 sum = int(num1) + int(num2)
 print("The sum of "+str(num1)+" and "+str(num2)+" is "+str(sum))
