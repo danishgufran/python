@@ -1,0 +1,11 @@
+#Python code to add numbers in an array
+#adding the individual values
+def _sum(arr):  
+    return(sum(arr))  
+#the array elements
+arr = [12, 3, 4, 15, 1,1000,0.5] 
+#finding the length of the array
+n = len(arr) 
+print('The array has ',n,' elements')
+ans = _sum(arr)  
+print ('Sum of the array is ',ans)
