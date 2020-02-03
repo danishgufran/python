@@ -1,0 +1,9 @@
+# Python code to convert decimal number into binary
+def convertToBinary(n):
+   if n > 1:
+       convertToBinary(n//2)
+   print(n % 2)
+# decimal number
+dec =int(input('Enter decimal number'))
+convertToBinary(dec)
+print()
