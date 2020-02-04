@@ -1,0 +1,11 @@
+def reciprocal(num):
+    # Executed if true
+    try:
+        r = 1/num
+    #executed if false
+    except:
+        print('Exception caught')
+        return
+    return r
+number=float(input("Enter a number to reciprocate"))
+print(reciprocal(number))
