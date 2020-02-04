@@ -1,0 +1,11 @@
+lst =input( "Enter a string")
+# To take input from the user
+#lst = input("Enter a string: ")
+# breakdown the string into a list of words
+words = lst.split()
+# sort the list
+words.sort()
+# display the sorted words
+print("The sorted words are:")
+for word in words:
+   print(word)
