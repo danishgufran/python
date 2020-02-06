@@ -1,0 +1,5 @@
+get=input("Enter string:")
+get=get.replace('a','$')
+get=get.replace('A','$')
+print("Modified string:")
+print(get)
