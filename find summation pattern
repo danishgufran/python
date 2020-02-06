@@ -1,0 +1,11 @@
+#python code to find summation pattern
+n=int(input("Enter a number: "))
+for j in range(0,n+1):
+    a=[]
+    for i in range(0,j+1):
+        print(i,sep=" ",end=" ")
+        if(i<j):
+            print("+",sep=" ",end=" ")
+        a.append(i)
+    print("=",sum(a)) 
+print()
