@@ -1,0 +1,22 @@
+#python code to find sum of a series
+while True:
+ get=int(input("Enter the series"))
+ if type (get)==int:
+   store=[]
+   count=0
+   if (get>0):
+     for i in range (0,get+1):
+       print(i,sep=" ",end=" ")
+       count=i+count
+       store.append(count)
+       print('+',sep=" ",end=" ")
+   elif(get<0):
+     for i in range (get,0):
+       print(i,sep=" ",end=" ")
+       count=i+count
+       store.append(count)
+       print('+',sep=" ",end=" ")
+   print('=',count)
+ else:
+   print("INVALID INPUT")
+   break
