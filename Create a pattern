@@ -1,0 +1,8 @@
+#python code to create a * triangle
+get=int(input("Enter number of rows"))
+p=0
+for i in range(0,get):
+  for j in range (p,get):
+    print("*",sep=" ",end=" ")
+  print("\n")
+  p+=1
