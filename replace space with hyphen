@@ -1,0 +1,3 @@
+get=input("Enter a list")
+get=get.replace(' ','-')
+print(get)
